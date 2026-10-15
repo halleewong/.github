@@ -30,6 +30,8 @@ medical image analysis, mostly in `tensorflow`/`keras` for now.
 Related more experimental library: [neurite-sandbox](https://github.com/adalca/neurite-sandbox) 
  - [voxynth](https://github.com/dalcalab/voxynth)  
 Synthesizing voxel data, based on the generative modeling in SynthSeg, SynthMorph, SynthStrip, etc
+ - [BatchAug](https://github.com/halleewong/batchaug)  
+Batched GPU augmentations for 3D medical images, replacing MONAI's per-sample transforms with fused Triton kernels
  
 ### Data 
  - [teramedical](https://github.com/teramedical/teramedical)  
